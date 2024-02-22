@@ -27,9 +27,7 @@ header{
 
 /* debug */
 
-.debug .avatar{
-   
-}
+
 
 .debug .avatar .col{
     height: 600px;
@@ -40,7 +38,9 @@ header{
     height: 300px;
 }
 
-
+.debug footer .col-12{
+    height: 150px;
+}
 
 /* Avatar Section */
 
@@ -82,4 +82,23 @@ header{
 
 .about{
     background-color: var(--secondaryAccent);
+}
+
+
+
+/* Contact Me Section */
+
+
+
+
+/* Footer */
+
+footer{
+    background-color: #3A546D;
+}
+
+/* Copyright Section */
+
+.copyright{
+    background-color: var(--primaryAccent);
 }
