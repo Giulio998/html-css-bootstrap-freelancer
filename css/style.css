@@ -15,16 +15,14 @@ header{
     background-color: var(--primaryAccent);
 }
 
+
 .filter-brightness{
     
     filter: brightness(100);
 }
 
 
-.avatar{
-    background-color: var(--secondaryAccent);
 
-}
 
 
 /* debug */
@@ -46,8 +44,9 @@ header{
 
 /* Avatar Section */
 
-.avatar-card{
-    margin: 0 auto;
+.avatar{
+    background-color: var(--secondaryAccent);
+
 }
 
 
@@ -77,4 +76,10 @@ header{
 
 .sixthBack{
     background-color:#CCB2A3 ;
+}
+
+/* About Section */
+
+.about{
+    background-color: var(--secondaryAccent);
 }
