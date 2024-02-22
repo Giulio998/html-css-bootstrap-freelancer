@@ -7,6 +7,7 @@
 
 :root {
     --primaryAccent:#2C3E50;
+    --secondaryAccent:#1ABC9C;
 } 
 
 
@@ -17,4 +18,63 @@ header{
 .filter-brightness{
     
     filter: brightness(100);
+}
+
+
+.avatar{
+    background-color: var(--secondaryAccent);
+
+}
+
+
+/* debug */
+
+.debug .avatar{
+   
+}
+
+.debug .avatar .col{
+    height: 600px;
+   
+}
+
+.debug-background{
+    height: 300px;
+
+}
+
+
+
+/* Avatar Section */
+
+.avatar-card{
+    margin: 0 auto;
+}
+
+
+
+/* Portfolio Section */
+
+.firstBack{
+    background-color: #BA4B63;
+}
+
+.secondBack{
+    background-color: #1EA4B6;
+}
+
+.thirdBack{
+    background-color: #140F0F;
+}
+
+.fourthBack{
+    background-color:#1C83C1 ;
+}
+
+.fifthBack{
+    background-color:#0E38B5 ;
+}
+
+.sixthBack{
+    background-color:#CCB2A3 ;
 }
