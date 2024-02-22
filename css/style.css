@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primaryAccent:#2C3E50;
+} 
+
+
+header{
+    background-color: var(--primaryAccent);
+}
+
+.filter-brightness{
+    
+    filter: brightness(100);
+}
