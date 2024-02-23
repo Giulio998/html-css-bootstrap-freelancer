@@ -24,19 +24,30 @@ header{
 
 
 
+.hr-icon {
+    position: relative;
+    top: 3px;
+    
+}
+
+.hr-line{
+    width: 100%;
+    position: relative;
+    margin: 15px;
+   
+    
+}
+
+.svg-align{
+    vertical-align: inherit;
+}
 
 /* debug */
 
 
 
-.debug .avatar .col{
-    height: 600px;
-   
-}
 
-.debug-background .firstBack,.secondBack,.thirdBack,.fourthBack,.fifthBack,.sixthBack{
-    height: 300px;
-}
+
 
 .debug footer .col-12{
     height: 150px;
@@ -49,33 +60,52 @@ header{
 
 }
 
+.avatar img{
+    height: 290px;
+    padding-bottom: 10px;
+}
 
+
+.avatar h1{
+    font-size: 33px;
+}
+
+.avatar p{
+    font-size: 16px;
+}
+
+.hr-theme-slash-2 {
+    display: flex;
+    width: 210px;
+}
+
+
+.avatar .hr-line{
+    border-bottom: 2px solid white;
+}
+
+
+  
+ .avatar .hr-icon{
+    color: white;
+ }
 
 /* Portfolio Section */
 
-.firstBack{
-    background-color: #BA4B63;
 
+
+
+.portfolio .hr-icon{
+    color: var(--primaryAccent);
 }
 
-.secondBack{
-    background-color: #1EA4B6;
+.portfolio .hr-line{
+    border-bottom: 2px solid var(--primaryAccent);
 }
 
-.thirdBack{
-    background-color: #140F0F;
-}
-
-.fourthBack{
-    background-color:#1C83C1 ;
-}
-
-.fifthBack{
-    background-color:#0E38B5 ;
-}
-
-.sixthBack{
-    background-color:#CCB2A3 ;
+.portfolio img{
+    width: 100%;
+    border-radius: 15px;
 }
 
 /* About Section */
@@ -84,10 +114,56 @@ header{
     background-color: var(--secondaryAccent);
 }
 
+.about .hr-line{
+    border-bottom: 2px solid white
+}
+
+.about .hr-icon{
+    color: white;
+}
 
 
 /* Contact Me Section */
 
+.contactMe h2{
+    color: var(--primaryAccent);
+}
+
+.contactMe .hr-line{
+    border-bottom: 2px solid var(--primaryAccent)
+}
+
+.contactMe .hr-icon{
+    color: var(--primaryAccent);
+}
+
+
+.contactMe input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.contactMe textarea{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font-size: 20px;
+    font-weight: 600;
+    height: 200px;
+    
+}
+
+.contactMe .input-group{
+   
+}
+
+.contactMe button{
+    background-color: var(--secondaryAccent);
+}
 
 
 
@@ -97,8 +173,65 @@ footer{
     background-color: #3A546D;
 }
 
+footer li{
+    list-style: none;
+}
+
+
+.icon{
+  font-size: 20px;
+  
+}
+
+.bubble-icon{
+    border: 1px solid white;
+    padding: 10px ;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+
+}
+
+
+footer a{
+    color: var(--secondaryAccent);
+}
+
+footer .bubble-icon a{
+    color: white
+}
+
+footer .bubble-icon:hover{
+    filter: invert(1);
+    background-color: black;
+}
+
+
 /* Copyright Section */
 
 .copyright{
     background-color: var(--primaryAccent);
+    
+}
+
+.copyright .row{
+    height: 100px;
+}
+
+
+
+
+@media screen and (min-width:375px) {
+    .customWidth{
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (min-width:1200px) {
+    .customWidth{
+        width: 70%;
+    }
+    
 }
